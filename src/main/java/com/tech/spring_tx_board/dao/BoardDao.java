@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.tech.spring_tx_board.dto.BoardDto;
-import com.tech.spring_tx_board.util.Constant;
+
 
 public class BoardDao {
 

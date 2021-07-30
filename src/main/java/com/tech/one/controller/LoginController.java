@@ -11,19 +11,19 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.tech.spring_tx_board.util.Constant;
+
 
 @Controller
 public class LoginController {
 	
 	public JdbcTemplate template;
-	
+/*	
 	public void setTemplate(JdbcTemplate template) {
 		this.template = template;
 		Constant.template=this.template;
 	}
 	@Autowired
-	private SqlSession sqlSession;
+	private SqlSession sqlSession;*/
 	
 	@RequestMapping("/login")
 	public String login() {
